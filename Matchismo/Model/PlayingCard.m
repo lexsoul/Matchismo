@@ -10,6 +10,24 @@
 
 @implementation PlayingCard
 
+-(int)match:(NSArray *)otherCards
+{
+    int score = 0;
+    if([otherCards count] ==1)
+    {
+        PlayingCard *otherCard = [otherCards lastObject];
+        if([otherCard.logotipo isEqualToString:self.logotipo])
+        {
+            score = 1;
+        }
+        else if (otherCard.valorCarta == self.valorCarta)
+        {
+            score = 4;
+        }
+    }
+    return score;
+}
+
 -(NSString *)contenidoCarta
 {
  

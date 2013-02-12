@@ -28,7 +28,8 @@
     {
         for (NSString *temp_logo in [PlayingCard logotipoValido])
         {
-            for (NSUInteger temp_valor_carta =1; temp_valor_carta <=[PlayingCard cantidadCartas]; temp_valor_carta++)
+            int cantidadCartas_actual = [PlayingCard cantidadCartas];
+            for (NSUInteger temp_valor_carta =1; temp_valor_carta <=cantidadCartas_actual; temp_valor_carta++)
             {
                 PlayingCard *carta = [[PlayingCard alloc] init];
                 carta.valorCarta = temp_valor_carta;

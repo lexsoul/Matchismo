@@ -10,6 +10,7 @@
 
 @implementation Card
 
+/*
 -(int)match:(Card *)card
 {
     int score = 0;
@@ -19,18 +20,22 @@
             score = 1;
         }
     return score;
+}*/
+- (NSString *)description
+{
+    return self.contenidoCarta;
 }
-/*-(int)match:(NSArray *) otherCards
+-(int)match:(NSArray *) otherCards
 {
     int score = 0;
     
     for (Card *card in otherCards)
     {
-        if([card.contents isEqualToString:self.contents])
+        if([card.contenidoCarta isEqualToString:self.contenidoCarta])
         {
             score = 1;
         }
     }
-
-}*/
+    return score;
+}
 @end

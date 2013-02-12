@@ -33,11 +33,6 @@
         [self.cards addObject:card];
     }
 }
--(void)removeCard:(Card *)card
-{
-    [self.cards removeObject:card];
-}
-
 -(Card *)drawRandomCard
 {
     Card *randomCard = nil;

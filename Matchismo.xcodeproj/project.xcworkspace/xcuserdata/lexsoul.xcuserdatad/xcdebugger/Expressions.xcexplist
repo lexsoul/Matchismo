@@ -3,7 +3,41 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "+[PlayingCard cantidadCartas]:PlayingCard.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "numcartas">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayingCard setValorCarta:]:PlayingCard.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CardMatchingGame initWithCardCount:usingDeck:]:CardMatchingGame.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayingCardDeck init]:PlayingCardDeck.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CardGameViewController updateUI]:CardGameViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cardButton.selected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PlayingCard contenidoCarta]:PlayingCard.m">
+      </ContextState>
+      <ContextState
          contextName = "-[CardGameViewController setFlipCount:]:CardGameViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CardGameViewController game]:CardGameViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Deck drawRandomCard]:Deck.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
